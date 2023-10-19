@@ -1,0 +1,46 @@
+.traffic-light-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .traffic-light-box {
+    width: 100px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los colores del semáforo */
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .active {
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px 5px #fff;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
